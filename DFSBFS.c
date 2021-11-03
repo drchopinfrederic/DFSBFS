@@ -45,13 +45,13 @@ void BFS(int v,int N){
     return;
 }
         
- 
+
  
 int main(){
     int N,M,Start;
     int i,x,y;
  
-    scanf("%d%d%d",&N,&M,&Start);
+    scanf("%d %d %d",&N,&M,&Start); //
     
     for(i=0;i<M;i++){
         scanf("%d%d",&x,&y);
